@@ -1,6 +1,6 @@
 var _ = require("lodash");
 
- var worker = function(collection) {
+  var worker = function(collection) {
 
   var grouped = _.groupBy(collection, 'article');
 
